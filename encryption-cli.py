@@ -18,7 +18,7 @@ def main_cli():
                 else:
                     print("missing file name to load")
             elif promtcomnd[0] == "save":
-                if len(promtcomnd)==3:
+                if len(promtcomnd)==2:
                     save_key_file(promtcomnd[1],k1,k2)
                 else: 
                     print("missing file name to save")
@@ -37,7 +37,7 @@ def main_cli():
             elif promtcomnd[0] == "k1":
                 print(k1)
             elif promtcomnd[0] == "k2":
-                print(k2)     
+                print(k2)
 
 def decryption_file(decfile,fileclear,k1,k2):
     try:
