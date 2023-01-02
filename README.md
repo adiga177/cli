@@ -1,4 +1,4 @@
-#Final Python project
+# Final Python project
 
 ##Read the Substitution cipher from wikipedia.
 ##We'll create a program that can:
